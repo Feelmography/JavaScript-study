@@ -23,3 +23,12 @@ feelmography
 
 4. 원격(remote, origin) repository 정보 저장하기
 * 새로운 repository를 생성했을 때만
+git remote add origin https://github.com/Feelmography/JavaScript-study.git
+* origin 이라는 이름으로 github의 원격 repository 주소를 등록하는 절차
+
+5. 프로젝트를 압축하여 local repository(.git 폴더)에 저장하기
+* git add .
+* git commit -m "Comment"
+
+6. 업로드하기
+* git push -u origin master
